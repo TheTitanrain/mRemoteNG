@@ -845,7 +845,7 @@
     <value>Порт:</value>
   </data>
   <data name="strLabelPortableEdition" xml:space="preserve">
-    <value>Portable Edition</value>
+    <value>Переносная версия</value>
   </data>
   <data name="strLabelProtocol" xml:space="preserve">
     <value>Протокол:</value>
@@ -854,7 +854,7 @@
     <value>Нажмите на эту кнопку для настройки сессий PuTTY:</value>
   </data>
   <data name="strLabelPuttyTimeout" xml:space="preserve">
-    <value>Max. PuTTY &amp;&amp; Integrated Ext. Apps wait time:</value>
+    <value>Максимальное время ожидания PuTTY и др. приложений:</value>
   </data>
   <data name="strLabelReleasedUnderGPL" xml:space="preserve">
     <value>Выпущено под лицензией GNU General Public License (GPL)</value>
@@ -1824,7 +1824,7 @@
     <value>Завершение фоновой сессии не удалось</value>
   </data>
   <data name="strSetHostnameLikeDisplayName" xml:space="preserve">
-    <value>Установить имя хоста, как отображаемое имя при создании новых подключений</value>
+    <value>Установить имя хоста как отображаемое имя при создании новых подключений</value>
   </data>
   <data name="strSettingMainFormTextFailed" xml:space="preserve">
     <value>Настройка основной текстовой формы не удалось</value>
@@ -1914,7 +1914,7 @@
     <value>Статус</value>
   </data>
   <data name="strSwitchToErrorsAndInfos" xml:space="preserve">
-    <value>Переключится на панель уведомлений:</value>
+    <value>Переключится на панель уведомлений при появлении сообщений следующих типов:</value>
   </data>
   <data name="strTabAdvanced" xml:space="preserve">
     <value>Дополнительно</value>
@@ -2198,5 +2198,38 @@ mRemoteNG сейчас прекратит работу и начнет проц�
   </data>
   <data name="strYes" xml:space="preserve">
     <value>Да</value>
+  </data>
+  <data name="strImportFromFileMenuItem" xml:space="preserve">
+    <value>Импорт из файла</value>
+  </data>
+  <data name="strOptionsKeyboardButtonDelete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="strOptionsKeyboardButtonNew" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="strOptionsKeyboardButtonReset" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="strOptionsKeyboardButtonResetAll" xml:space="preserve">
+    <value>Сбросить по умолчанию</value>
+  </data>
+  <data name="strOptionsKeyboardCommandsGroupTabs" xml:space="preserve">
+    <value>Закладки</value>
+  </data>
+  <data name="strOptionsKeyboardCommandsNextTab" xml:space="preserve">
+    <value>Следующая закладка</value>
+  </data>
+  <data name="strOptionsKeyboardCommandsPreviousTab" xml:space="preserve">
+    <value>Предыдущая закладка</value>
+  </data>
+  <data name="strOptionsKeyboardGroupModifyShortcut" xml:space="preserve">
+    <value>Изменить комбинацию</value>
+  </data>
+  <data name="strOptionsKeyboardLabelKeyboardShortcuts" xml:space="preserve">
+    <value>Горячие клавиши</value>
+  </data>
+  <data name="strOptionsTabKeyboard" xml:space="preserve">
+    <value>Клавиатура</value>
   </data>
 </root>

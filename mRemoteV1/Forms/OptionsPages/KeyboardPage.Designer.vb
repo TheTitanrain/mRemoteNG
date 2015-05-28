@@ -90,7 +90,7 @@
             '
             Me.btnResetAllKeyboardShortcuts.Location = New System.Drawing.Point(3, 466)
             Me.btnResetAllKeyboardShortcuts.Name = "btnResetAllKeyboardShortcuts"
-            Me.btnResetAllKeyboardShortcuts.Size = New System.Drawing.Size(120, 23)
+            Me.btnResetAllKeyboardShortcuts.Size = New System.Drawing.Size(200, 23)
             Me.btnResetAllKeyboardShortcuts.TabIndex = 18
             Me.btnResetAllKeyboardShortcuts.Text = "Reset &All to Default"
             Me.btnResetAllKeyboardShortcuts.UseVisualStyleBackColor = True
@@ -138,7 +138,6 @@
             Me.lvKeyboardCommands.InactiveHighlightBackColor = System.Drawing.SystemColors.Highlight
             Me.lvKeyboardCommands.InactiveHighlightBorderColor = System.Drawing.SystemColors.HotTrack
             Me.lvKeyboardCommands.InactiveHighlightForeColor = System.Drawing.SystemColors.HighlightText
-            Alignment1.Horizontal = mRemoteNG.Controls.HorizontalAlignment.Left
             Alignment1.Vertical = mRemoteNG.Controls.VerticalAlignment.Middle
             Me.lvKeyboardCommands.LabelAlignment = Alignment1
             Me.lvKeyboardCommands.LabelWrap = False
