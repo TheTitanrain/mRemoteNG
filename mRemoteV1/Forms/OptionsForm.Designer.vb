@@ -24,7 +24,7 @@
         <System.Diagnostics.DebuggerStepThrough()> _
         Private Sub InitializeComponent()
             Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OptionsForm))
-            Dim Alignment2 As mRemoteNG.Controls.Alignment = New mRemoteNG.Controls.Alignment()
+            Dim Alignment1 As mRemoteNG.Controls.Alignment = New mRemoteNG.Controls.Alignment()
             Me.PagePanel = New System.Windows.Forms.Panel()
             Me.OkButton = New System.Windows.Forms.Button()
             Me.CancelButtonControl = New System.Windows.Forms.Button()
@@ -54,9 +54,8 @@
             Me.PageListView.InactiveHighlightBackColor = System.Drawing.SystemColors.Highlight
             Me.PageListView.InactiveHighlightBorderColor = System.Drawing.SystemColors.HotTrack
             Me.PageListView.InactiveHighlightForeColor = System.Drawing.SystemColors.HighlightText
-            Alignment2.Horizontal = mRemoteNG.Controls.HorizontalAlignment.Left
-            Alignment2.Vertical = mRemoteNG.Controls.VerticalAlignment.Middle
-            Me.PageListView.LabelAlignment = Alignment2
+            Alignment1.Vertical = mRemoteNG.Controls.VerticalAlignment.Middle
+            Me.PageListView.LabelAlignment = Alignment1
             resources.ApplyResources(Me.PageListView, "PageListView")
             Me.PageListView.MultiSelect = False
             Me.PageListView.Name = "PageListView"

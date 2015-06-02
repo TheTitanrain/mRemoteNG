@@ -41,9 +41,9 @@
             'lblSQLDatabaseName
             '
             Me.lblSQLDatabaseName.Enabled = False
-            Me.lblSQLDatabaseName.Location = New System.Drawing.Point(23, 132)
+            Me.lblSQLDatabaseName.Location = New System.Drawing.Point(3, 122)
             Me.lblSQLDatabaseName.Name = "lblSQLDatabaseName"
-            Me.lblSQLDatabaseName.Size = New System.Drawing.Size(111, 13)
+            Me.lblSQLDatabaseName.Size = New System.Drawing.Size(82, 13)
             Me.lblSQLDatabaseName.TabIndex = 16
             Me.lblSQLDatabaseName.Text = "Database:"
             Me.lblSQLDatabaseName.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -52,7 +52,7 @@
             '
             Me.txtSQLDatabaseName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
             Me.txtSQLDatabaseName.Enabled = False
-            Me.txtSQLDatabaseName.Location = New System.Drawing.Point(140, 130)
+            Me.txtSQLDatabaseName.Location = New System.Drawing.Point(91, 120)
             Me.txtSQLDatabaseName.Name = "txtSQLDatabaseName"
             Me.txtSQLDatabaseName.Size = New System.Drawing.Size(153, 20)
             Me.txtSQLDatabaseName.TabIndex = 17
@@ -60,8 +60,8 @@
             'lblExperimental
             '
             Me.lblExperimental.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                Or System.Windows.Forms.AnchorStyles.Left) _
-                Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
             Me.lblExperimental.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World)
             Me.lblExperimental.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
             Me.lblExperimental.Location = New System.Drawing.Point(3, 0)
@@ -84,9 +84,9 @@
             'lblSQLUsername
             '
             Me.lblSQLUsername.Enabled = False
-            Me.lblSQLUsername.Location = New System.Drawing.Point(23, 158)
+            Me.lblSQLUsername.Location = New System.Drawing.Point(3, 148)
             Me.lblSQLUsername.Name = "lblSQLUsername"
-            Me.lblSQLUsername.Size = New System.Drawing.Size(111, 13)
+            Me.lblSQLUsername.Size = New System.Drawing.Size(82, 13)
             Me.lblSQLUsername.TabIndex = 18
             Me.lblSQLUsername.Text = "Username:"
             Me.lblSQLUsername.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -95,7 +95,7 @@
             '
             Me.txtSQLPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
             Me.txtSQLPassword.Enabled = False
-            Me.txtSQLPassword.Location = New System.Drawing.Point(140, 182)
+            Me.txtSQLPassword.Location = New System.Drawing.Point(91, 172)
             Me.txtSQLPassword.Name = "txtSQLPassword"
             Me.txtSQLPassword.Size = New System.Drawing.Size(153, 20)
             Me.txtSQLPassword.TabIndex = 21
@@ -104,8 +104,8 @@
             'lblSQLInfo
             '
             Me.lblSQLInfo.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                Or System.Windows.Forms.AnchorStyles.Left) _
-                Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
             Me.lblSQLInfo.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.World)
             Me.lblSQLInfo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
             Me.lblSQLInfo.Location = New System.Drawing.Point(3, 25)
@@ -118,9 +118,9 @@
             'lblSQLServer
             '
             Me.lblSQLServer.Enabled = False
-            Me.lblSQLServer.Location = New System.Drawing.Point(23, 106)
+            Me.lblSQLServer.Location = New System.Drawing.Point(3, 96)
             Me.lblSQLServer.Name = "lblSQLServer"
-            Me.lblSQLServer.Size = New System.Drawing.Size(111, 13)
+            Me.lblSQLServer.Size = New System.Drawing.Size(82, 13)
             Me.lblSQLServer.TabIndex = 14
             Me.lblSQLServer.Text = "SQL Server:"
             Me.lblSQLServer.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -129,7 +129,7 @@
             '
             Me.txtSQLUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
             Me.txtSQLUsername.Enabled = False
-            Me.txtSQLUsername.Location = New System.Drawing.Point(140, 156)
+            Me.txtSQLUsername.Location = New System.Drawing.Point(91, 146)
             Me.txtSQLUsername.Name = "txtSQLUsername"
             Me.txtSQLUsername.Size = New System.Drawing.Size(153, 20)
             Me.txtSQLUsername.TabIndex = 19
@@ -138,7 +138,7 @@
             '
             Me.txtSQLServer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
             Me.txtSQLServer.Enabled = False
-            Me.txtSQLServer.Location = New System.Drawing.Point(140, 103)
+            Me.txtSQLServer.Location = New System.Drawing.Point(91, 93)
             Me.txtSQLServer.Name = "txtSQLServer"
             Me.txtSQLServer.Size = New System.Drawing.Size(153, 20)
             Me.txtSQLServer.TabIndex = 15
@@ -146,9 +146,9 @@
             'lblSQLPassword
             '
             Me.lblSQLPassword.Enabled = False
-            Me.lblSQLPassword.Location = New System.Drawing.Point(23, 184)
+            Me.lblSQLPassword.Location = New System.Drawing.Point(3, 174)
             Me.lblSQLPassword.Name = "lblSQLPassword"
-            Me.lblSQLPassword.Size = New System.Drawing.Size(111, 13)
+            Me.lblSQLPassword.Size = New System.Drawing.Size(82, 13)
             Me.lblSQLPassword.TabIndex = 20
             Me.lblSQLPassword.Text = "Password:"
             Me.lblSQLPassword.TextAlign = System.Drawing.ContentAlignment.TopRight

@@ -36,7 +36,8 @@
             'lblLanguageRestartRequired
             '
             Me.lblLanguageRestartRequired.AutoSize = True
-            Me.lblLanguageRestartRequired.Location = New System.Drawing.Point(3, 56)
+            Me.lblLanguageRestartRequired.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+            Me.lblLanguageRestartRequired.Location = New System.Drawing.Point(3, 48)
             Me.lblLanguageRestartRequired.Name = "lblLanguageRestartRequired"
             Me.lblLanguageRestartRequired.Size = New System.Drawing.Size(380, 13)
             Me.lblLanguageRestartRequired.TabIndex = 9
@@ -64,7 +65,7 @@
             'chkShowFullConnectionsFilePathInTitle
             '
             Me.chkShowFullConnectionsFilePathInTitle.AutoSize = True
-            Me.chkShowFullConnectionsFilePathInTitle.Location = New System.Drawing.Point(3, 141)
+            Me.chkShowFullConnectionsFilePathInTitle.Location = New System.Drawing.Point(3, 95)
             Me.chkShowFullConnectionsFilePathInTitle.Name = "chkShowFullConnectionsFilePathInTitle"
             Me.chkShowFullConnectionsFilePathInTitle.Size = New System.Drawing.Size(239, 17)
             Me.chkShowFullConnectionsFilePathInTitle.TabIndex = 11
@@ -74,7 +75,7 @@
             'chkShowDescriptionTooltipsInTree
             '
             Me.chkShowDescriptionTooltipsInTree.AutoSize = True
-            Me.chkShowDescriptionTooltipsInTree.Location = New System.Drawing.Point(3, 118)
+            Me.chkShowDescriptionTooltipsInTree.Location = New System.Drawing.Point(3, 72)
             Me.chkShowDescriptionTooltipsInTree.Name = "chkShowDescriptionTooltipsInTree"
             Me.chkShowDescriptionTooltipsInTree.Size = New System.Drawing.Size(231, 17)
             Me.chkShowDescriptionTooltipsInTree.TabIndex = 10
@@ -84,7 +85,7 @@
             'chkShowSystemTrayIcon
             '
             Me.chkShowSystemTrayIcon.AutoSize = True
-            Me.chkShowSystemTrayIcon.Location = New System.Drawing.Point(3, 187)
+            Me.chkShowSystemTrayIcon.Location = New System.Drawing.Point(3, 127)
             Me.chkShowSystemTrayIcon.Name = "chkShowSystemTrayIcon"
             Me.chkShowSystemTrayIcon.Size = New System.Drawing.Size(172, 17)
             Me.chkShowSystemTrayIcon.TabIndex = 12
@@ -94,7 +95,7 @@
             'chkMinimizeToSystemTray
             '
             Me.chkMinimizeToSystemTray.AutoSize = True
-            Me.chkMinimizeToSystemTray.Location = New System.Drawing.Point(3, 210)
+            Me.chkMinimizeToSystemTray.Location = New System.Drawing.Point(3, 150)
             Me.chkMinimizeToSystemTray.Name = "chkMinimizeToSystemTray"
             Me.chkMinimizeToSystemTray.Size = New System.Drawing.Size(139, 17)
             Me.chkMinimizeToSystemTray.TabIndex = 13

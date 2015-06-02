@@ -1770,7 +1770,7 @@
     <value>Не удалось переключить RDP в режим SmartSize!</value>
   </data>
   <data name="strReconnectAtStartup" xml:space="preserve">
-    <value>При запуске подключаться к предыдущим сессиям</value>
+    <value>После запуска подключаться к сессиям, которые были открыты при закрытии</value>
   </data>
   <data name="strRefresh" xml:space="preserve">
     <value>Обновление</value>
@@ -1824,7 +1824,7 @@
     <value>Завершение фоновой сессии не удалось</value>
   </data>
   <data name="strSetHostnameLikeDisplayName" xml:space="preserve">
-    <value>Установить имя хоста как отображаемое имя при создании новых подключений</value>
+    <value>Присваивать полю "Имя хоста / IP" такое же значение как у подключения при создании новых подключений</value>
   </data>
   <data name="strSettingMainFormTextFailed" xml:space="preserve">
     <value>Настройка основной текстовой формы не удалось</value>
@@ -1845,10 +1845,10 @@
     <value>Показывать протокол в названии вкладок</value>
   </data>
   <data name="strSingleClickOnConnectionOpensIt" xml:space="preserve">
-    <value>Один клик по подключению для его открытия</value>
+    <value>Одинарный клик по подключению открывает его</value>
   </data>
   <data name="strSingleClickOnOpenConnectionSwitchesToIt" xml:space="preserve">
-    <value>Один клик по открытому подключению переключается на него</value>
+    <value>Одинарный клик по открытому подключению переключается на него</value>
   </data>
   <data name="strSmartSizeModeAspect" xml:space="preserve">
     <value>Вид</value>

@@ -51,7 +51,8 @@
             'lblUncheckProperties
             '
             Me.lblUncheckProperties.AutoSize = True
-            Me.lblUncheckProperties.Location = New System.Drawing.Point(12, 134)
+            Me.lblUncheckProperties.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+            Me.lblUncheckProperties.Location = New System.Drawing.Point(161, 16)
             Me.lblUncheckProperties.Name = "lblUncheckProperties"
             Me.lblUncheckProperties.Size = New System.Drawing.Size(244, 13)
             Me.lblUncheckProperties.TabIndex = 4
@@ -62,7 +63,7 @@
             Me.chkUsername.AutoSize = True
             Me.chkUsername.Checked = True
             Me.chkUsername.CheckState = System.Windows.Forms.CheckState.Checked
-            Me.chkUsername.Location = New System.Drawing.Point(15, 32)
+            Me.chkUsername.Location = New System.Drawing.Point(6, 19)
             Me.chkUsername.Name = "chkUsername"
             Me.chkUsername.Size = New System.Drawing.Size(74, 17)
             Me.chkUsername.TabIndex = 0
@@ -74,7 +75,7 @@
             Me.chkPassword.AutoSize = True
             Me.chkPassword.Checked = True
             Me.chkPassword.CheckState = System.Windows.Forms.CheckState.Checked
-            Me.chkPassword.Location = New System.Drawing.Point(15, 55)
+            Me.chkPassword.Location = New System.Drawing.Point(6, 42)
             Me.chkPassword.Name = "chkPassword"
             Me.chkPassword.Size = New System.Drawing.Size(72, 17)
             Me.chkPassword.TabIndex = 1
@@ -86,7 +87,7 @@
             Me.chkDomain.AutoSize = True
             Me.chkDomain.Checked = True
             Me.chkDomain.CheckState = System.Windows.Forms.CheckState.Checked
-            Me.chkDomain.Location = New System.Drawing.Point(15, 78)
+            Me.chkDomain.Location = New System.Drawing.Point(6, 65)
             Me.chkDomain.Name = "chkDomain"
             Me.chkDomain.Size = New System.Drawing.Size(62, 17)
             Me.chkDomain.TabIndex = 2
@@ -98,7 +99,7 @@
             Me.chkInheritance.AutoSize = True
             Me.chkInheritance.Checked = True
             Me.chkInheritance.CheckState = System.Windows.Forms.CheckState.Checked
-            Me.chkInheritance.Location = New System.Drawing.Point(15, 101)
+            Me.chkInheritance.Location = New System.Drawing.Point(6, 88)
             Me.chkInheritance.Name = "chkInheritance"
             Me.chkInheritance.Size = New System.Drawing.Size(79, 17)
             Me.chkInheritance.TabIndex = 3
@@ -107,16 +108,16 @@
             '
             'txtFileName
             '
-            Me.txtFileName.Location = New System.Drawing.Point(15, 48)
+            Me.txtFileName.Location = New System.Drawing.Point(9, 33)
             Me.txtFileName.Name = "txtFileName"
             Me.txtFileName.Size = New System.Drawing.Size(396, 20)
             Me.txtFileName.TabIndex = 1
             '
             'btnBrowse
             '
-            Me.btnBrowse.Location = New System.Drawing.Point(417, 46)
+            Me.btnBrowse.Location = New System.Drawing.Point(411, 31)
             Me.btnBrowse.Name = "btnBrowse"
-            Me.btnBrowse.Size = New System.Drawing.Size(75, 23)
+            Me.btnBrowse.Size = New System.Drawing.Size(93, 23)
             Me.btnBrowse.TabIndex = 2
             Me.btnBrowse.Text = "&Browse"
             Me.btnBrowse.UseVisualStyleBackColor = True
@@ -128,9 +129,9 @@
             Me.grpProperties.Controls.Add(Me.chkUsername)
             Me.grpProperties.Controls.Add(Me.chkDomain)
             Me.grpProperties.Controls.Add(Me.chkPassword)
-            Me.grpProperties.Location = New System.Drawing.Point(12, 304)
+            Me.grpProperties.Location = New System.Drawing.Point(12, 271)
             Me.grpProperties.Name = "grpProperties"
-            Me.grpProperties.Size = New System.Drawing.Size(510, 163)
+            Me.grpProperties.Size = New System.Drawing.Size(510, 119)
             Me.grpProperties.TabIndex = 1
             Me.grpProperties.TabStop = False
             Me.grpProperties.Text = "Export Properties"
@@ -144,7 +145,7 @@
             Me.grpFile.Controls.Add(Me.btnBrowse)
             Me.grpFile.Location = New System.Drawing.Point(12, 12)
             Me.grpFile.Name = "grpFile"
-            Me.grpFile.Size = New System.Drawing.Size(510, 140)
+            Me.grpFile.Size = New System.Drawing.Size(510, 107)
             Me.grpFile.TabIndex = 0
             Me.grpFile.TabStop = False
             Me.grpFile.Text = "Export File"
@@ -152,7 +153,7 @@
             'lblFileFormat
             '
             Me.lblFileFormat.AutoSize = True
-            Me.lblFileFormat.Location = New System.Drawing.Point(12, 84)
+            Me.lblFileFormat.Location = New System.Drawing.Point(6, 56)
             Me.lblFileFormat.Name = "lblFileFormat"
             Me.lblFileFormat.Size = New System.Drawing.Size(61, 13)
             Me.lblFileFormat.TabIndex = 3
@@ -161,7 +162,7 @@
             'lblFileName
             '
             Me.lblFileName.AutoSize = True
-            Me.lblFileName.Location = New System.Drawing.Point(12, 32)
+            Me.lblFileName.Location = New System.Drawing.Point(6, 16)
             Me.lblFileName.Name = "lblFileName"
             Me.lblFileName.Size = New System.Drawing.Size(52, 13)
             Me.lblFileName.TabIndex = 0
@@ -171,7 +172,7 @@
             '
             Me.cboFileFormat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
             Me.cboFileFormat.FormattingEnabled = True
-            Me.cboFileFormat.Location = New System.Drawing.Point(15, 100)
+            Me.cboFileFormat.Location = New System.Drawing.Point(9, 72)
             Me.cboFileFormat.Name = "cboFileFormat"
             Me.cboFileFormat.Size = New System.Drawing.Size(294, 21)
             Me.cboFileFormat.TabIndex = 4
@@ -183,7 +184,7 @@
             Me.grpItems.Controls.Add(Me.rdoExportSelectedConnection)
             Me.grpItems.Controls.Add(Me.rdoExportSelectedFolder)
             Me.grpItems.Controls.Add(Me.rdoExportEverything)
-            Me.grpItems.Location = New System.Drawing.Point(12, 158)
+            Me.grpItems.Location = New System.Drawing.Point(12, 125)
             Me.grpItems.Name = "grpItems"
             Me.grpItems.Size = New System.Drawing.Size(510, 140)
             Me.grpItems.TabIndex = 4
@@ -193,7 +194,7 @@
             'lblSelectedConnection
             '
             Me.lblSelectedConnection.AutoSize = True
-            Me.lblSelectedConnection.Location = New System.Drawing.Point(48, 111)
+            Me.lblSelectedConnection.Location = New System.Drawing.Point(39, 98)
             Me.lblSelectedConnection.Name = "lblSelectedConnection"
             Me.lblSelectedConnection.Size = New System.Drawing.Size(92, 13)
             Me.lblSelectedConnection.TabIndex = 4
@@ -202,7 +203,7 @@
             'lblSelectedFolder
             '
             Me.lblSelectedFolder.AutoSize = True
-            Me.lblSelectedFolder.Location = New System.Drawing.Point(48, 75)
+            Me.lblSelectedFolder.Location = New System.Drawing.Point(39, 62)
             Me.lblSelectedFolder.Name = "lblSelectedFolder"
             Me.lblSelectedFolder.Size = New System.Drawing.Size(67, 13)
             Me.lblSelectedFolder.TabIndex = 3
@@ -211,7 +212,7 @@
             'rdoExportSelectedConnection
             '
             Me.rdoExportSelectedConnection.AutoSize = True
-            Me.rdoExportSelectedConnection.Location = New System.Drawing.Point(15, 91)
+            Me.rdoExportSelectedConnection.Location = New System.Drawing.Point(6, 78)
             Me.rdoExportSelectedConnection.Name = "rdoExportSelectedConnection"
             Me.rdoExportSelectedConnection.Size = New System.Drawing.Size(215, 17)
             Me.rdoExportSelectedConnection.TabIndex = 2
@@ -222,7 +223,7 @@
             'rdoExportSelectedFolder
             '
             Me.rdoExportSelectedFolder.AutoSize = True
-            Me.rdoExportSelectedFolder.Location = New System.Drawing.Point(15, 55)
+            Me.rdoExportSelectedFolder.Location = New System.Drawing.Point(6, 42)
             Me.rdoExportSelectedFolder.Name = "rdoExportSelectedFolder"
             Me.rdoExportSelectedFolder.Size = New System.Drawing.Size(188, 17)
             Me.rdoExportSelectedFolder.TabIndex = 1
@@ -234,7 +235,7 @@
             '
             Me.rdoExportEverything.AutoSize = True
             Me.rdoExportEverything.Checked = True
-            Me.rdoExportEverything.Location = New System.Drawing.Point(15, 32)
+            Me.rdoExportEverything.Location = New System.Drawing.Point(6, 19)
             Me.rdoExportEverything.Name = "rdoExportEverything"
             Me.rdoExportEverything.Size = New System.Drawing.Size(107, 17)
             Me.rdoExportEverything.TabIndex = 0

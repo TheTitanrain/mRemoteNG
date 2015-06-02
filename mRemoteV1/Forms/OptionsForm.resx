@@ -145,7 +145,7 @@
     <value>NoControl</value>
   </data>
   <data name="OkButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>626, 507</value>
+    <value>12, 478</value>
   </data>
   <data name="OkButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -172,7 +172,7 @@
     <value>NoControl</value>
   </data>
   <data name="CancelButtonControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>707, 507</value>
+    <value>93, 478</value>
   </data>
   <data name="CancelButtonControl.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -199,7 +199,7 @@
     <value>12, 12</value>
   </data>
   <data name="PageListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 489</value>
+    <value>154, 460</value>
   </data>
   <data name="PageListView.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -208,7 +208,7 @@
     <value>PageListView</value>
   </data>
   <data name="&gt;&gt;PageListView.Type" xml:space="preserve">
-    <value>mRemoteNG.Controls.ListView, mRemoteNG, Version=1.72.5056.42837, Culture=neutral, PublicKeyToken=null</value>
+    <value>mRemoteNG.Controls.ListView, mRemoteNG, Version=1.73.5631.40390, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;PageListView.Parent" xml:space="preserve">
     <value>$this</value>
@@ -223,7 +223,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>794, 542</value>
+    <value>794, 514</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
