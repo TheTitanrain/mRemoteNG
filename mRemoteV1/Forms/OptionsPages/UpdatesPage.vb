@@ -66,12 +66,12 @@ Namespace Forms.OptionsPages
             End Select
 
             chkUseProxyForAutomaticUpdates.Checked = My.Settings.UpdateUseProxy
-            pnlProxyBasic.Enabled = My.Settings.UpdateUseProxy
+            'pnlProxyBasic.Enabled = My.Settings.UpdateUseProxy
             txtProxyAddress.Text = My.Settings.UpdateProxyAddress
             numProxyPort.Value = My.Settings.UpdateProxyPort
 
             chkUseProxyAuthentication.Checked = My.Settings.UpdateProxyUseAuthentication
-            pnlProxyAuthentication.Enabled = My.Settings.UpdateProxyUseAuthentication
+            'pnlProxyAuthentication.Enabled = My.Settings.UpdateProxyUseAuthentication
             txtProxyUsername.Text = My.Settings.UpdateProxyAuthUser
             txtProxyPassword.Text = Crypt.Decrypt(My.Settings.UpdateProxyAuthPass, General.EncryptionKey)
 
@@ -124,18 +124,18 @@ Namespace Forms.OptionsPages
         End Sub
 
         Private Sub chkUseProxyForAutomaticUpdates_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles chkUseProxyForAutomaticUpdates.CheckedChanged
-            pnlProxyBasic.Enabled = chkUseProxyForAutomaticUpdates.Checked
+            'pnlProxyBasic.Enabled = chkUseProxyForAutomaticUpdates.Checked
             btnTestProxy.Enabled = chkUseProxyForAutomaticUpdates.Checked
 
             If chkUseProxyForAutomaticUpdates.Checked Then
                 chkUseProxyAuthentication.Enabled = True
 
                 If chkUseProxyAuthentication.Checked Then
-                    pnlProxyAuthentication.Enabled = True
+                    'pnlProxyAuthentication.Enabled = True
                 End If
             Else
                 chkUseProxyAuthentication.Enabled = False
-                pnlProxyAuthentication.Enabled = False
+                'pnlProxyAuthentication.Enabled = False
             End If
         End Sub
 
@@ -158,9 +158,9 @@ Namespace Forms.OptionsPages
         Private Sub chkUseProxyAuthentication_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs) Handles chkUseProxyAuthentication.CheckedChanged
             If chkUseProxyForAutomaticUpdates.Checked Then
                 If chkUseProxyAuthentication.Checked Then
-                    pnlProxyAuthentication.Enabled = True
+                    'pnlProxyAuthentication.Enabled = True
                 Else
-                    pnlProxyAuthentication.Enabled = False
+                    'pnlProxyAuthentication.Enabled = False
                 End If
             End If
         End Sub
@@ -186,6 +186,10 @@ Namespace Forms.OptionsPages
             Catch ex As Exception
                 cTaskDialog.ShowCommandBox(Me, Application.Info.ProductName, Language.strProxyTestFailed, Misc.GetExceptionMessageRecursive(ex), "", "", "", Language.strButtonOK, False, eSysIcons.Error, 0)
             End Try
+        End Sub
+
+        Private Sub txtProxyAddress_TextChanged(sender As Object, e As EventArgs) Handles txtProxyAddress.TextChanged
+
         End Sub
 #End Region
     End Class
